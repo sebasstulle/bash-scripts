@@ -2,7 +2,7 @@
 # Bash Scripts
 
 Diagnostic and automation scripts for Linux systems administration.
-Written and tested on Debian 12 in a home lab environment.
+Written and tested on Debian 13 in a home lab environment.
 
 ---
 
@@ -33,5 +33,5 @@ Example output:
 
 ---
 
-*Environment: Debian 12 · VirtualBox 7*  
+*Environment: Debian 13 · VirtualBox 7*  
 *Updated as new scripts are added.*
