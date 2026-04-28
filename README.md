@@ -11,6 +11,7 @@ Written and tested on Debian 13 in a home lab environment.
 | Script | What it does |
 |--------|-------------|
 | [check-ports.sh](check-ports.sh) | Shows open TCP ports and the process behind each one |
+| [check-services.sh](check-services.sh) | Shows failed systemd services |
 
 ---
 
@@ -30,8 +31,22 @@ Example output:
     LISTEN     127.0.0.1:25            users:(("exim4",pid=1228,fd=5))
 
     Done.
-
+ 
 ---
 
+## check-services.sh
+
+Shows failed systemd services.
+Useful for quickly checking if any critical service is down.
+
+    ./check-services.sh
+
+Example output:
+
+    === Failed systemd services ===
+
+    All services are running.
+
+    Done.
 *Environment: Debian 13 · VirtualBox 7*  
 *Updated as new scripts are added.*
